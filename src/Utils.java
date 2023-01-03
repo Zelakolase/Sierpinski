@@ -13,10 +13,10 @@ public class Utils {
         }
         return (double) result;
     }
-    public static boolean isPrime(int num){
-        if (num > 2 && num%2 == 0) return false;
-        int top = (int) Math.sqrt(num) + 1;
-        for(int i = 3; i < top; i+=2) if(num % i == 0) return false;
+    public static boolean isPrime(long l){
+        if (l > 2l && l%2l == 0l) return false;
+        int top = (int) Math.sqrt(l) + 1;
+        for(long i = 3; i < top; i+=2) if(l % i == 0) return false;
         return true; 
     }
 }
