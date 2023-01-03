@@ -18,3 +18,4 @@
   - See special similiarities in sierpinski numbers, narrow down range
 - Try to find alternate forms to Sierpinski.
   - Equate it to another relation(s) that we would guarantee that would produce composite (not prime) numbers
+    - (Two methods for expressing primes)[https://www.vedantu.com/maths/how-to-find-prime-numbers]
