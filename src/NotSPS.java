@@ -7,7 +7,6 @@ public class NotSPS {
             for(int n = 0;n < Config.maxN; n++) {
                 double number = k * Utils.TwoPow(n) + 1;
                 if(Utils.isPrime(number)) solutions.add(number);
-                if(solutions.size() > 5) break;
             }
             System.out.println("K: "+k+" N: "+solutions);
         }
