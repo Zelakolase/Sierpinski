@@ -8,3 +8,12 @@
 - Utils.java : Some optimized algorithms
 - Config.java : Public variables and constant values
 - RaceAlgo.java : An optimized brute force
+
+## Plan
+- Narrow down potential 'n' values.
+  - (Expr.1) See what 'n' values fails the k*2^n+1 relation for all 'k's, see similarities
+- Narrow down potential 'k' values.
+  - See what 'k,n' pairs failed from (Expr.1) and find 'n,k' corresponding values such that k*2^n+1 = n*2^k+1
+  - See special similiarities in sierpinski numbers, narrow down range
+- Try to find alternate forms to Sierpinski.
+  - Equate it to another relation(s) that we would guarantee that would produce composite (not prime) numbers
